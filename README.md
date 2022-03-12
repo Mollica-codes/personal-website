@@ -1,70 +1,15 @@
-# Getting Started with Create React App
+# Personal Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This site is my personal website that includes an about me section, recent projects, and contact links to other socials. The site is hosted on Netlify at https://chrismollica.netlify.app/. 
 
-## Available Scripts
+### Project Details
+I wanted to create a simple page that had a brief summary about me as well as highlight some of my projects and skills. The sections are simple and responsive by using flexbox and grid layouts. The point of the site is not to be very fancy but provide a quick introduction into myself as well as links to other socials and projects. 
 
-In the project directory, you can run:
+Before the About section, I included a 100vh intro section to set the theme for the page and to make use of some CSS skills such as animations and absolute positioning. My original design was a darker theme with contrasting bright colors and arrows but I didn't think it had any personality. I wanted the page to have a more relaxed, nature feel which is why I opted for the tan/natural color scheme. It's also why I decided to put a tree with a swing set and falling leaves. I'm no art student but I wanted the tree to look more like a coloring book and not look super detail realistic.
 
-### `npm start`
+### Improvements
+In the future when I get time I plan to update the page in a couple ways.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+-Make the email more of a form so when you click it you can send me an email right there.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+-Make the page more mobile responsive. You can side scroll and zoom out the page on mobile which makes it not look good. Also, when flipping my phone sideways two of the absolute positioned bars I added for asthetic get out of position. Right now the page set up to be viewed more on a desktop.
