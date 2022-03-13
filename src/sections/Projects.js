@@ -3,6 +3,7 @@ import calculator from '../images/calculator.png';
 import clock from '../images/25-clock.png';
 import quote from '../images/quote.png';
 import ecommerceSite from '../images/ecommerce-site.png';
+import shooterGame from '../images/Space-shooter-photo.png';
 
 
 function Projects() {
@@ -22,6 +23,9 @@ function Projects() {
                 <a href="https://codepen.io/MollicaCodes/pen/oNGmvMW" target="_blank" rel="noreferrer">
                     <img className="project-img" src={quote} alt="random quote generator project"/>
                     Quote Generator</a>
+                <a href="https://codepen.io/MollicaCodes/full/abEoQEv" target="_blank" rel="noreferrer">
+                    <img className="project-img" src={shooterGame} alt="space shooter game"/>
+                    Space Shooter</a>
             </div>
             <h2 className="skills-header">Skills!</h2>
             <div className="skills-wrapper">
