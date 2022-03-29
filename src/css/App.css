@@ -9,8 +9,9 @@
   --black-color: #000;
 }
 
-html, body, .App {
+html, body {
   width: 100%;
+  overflow-x: hidden;
 }
 
 html {
@@ -23,6 +24,7 @@ body {
   margin: 0;
   font-size: 16px;
   font-family: 'Montserrat', 'Roboto', sans-serif;
+  position: relative;
 }
 img {
   max-width: 100%;
@@ -83,7 +85,7 @@ nav {
   text-align: center;
   padding: 1.5em 1.5em 0 1.5em;
   margin: 0 auto;
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 .intro-subheader {
@@ -128,7 +130,7 @@ nav {
 }
 
 .about-text {
-  font-size: 1.1rem;
+  font-size: 0.9rem;
   font-weight: 700;
 }
 
@@ -137,10 +139,9 @@ nav {
   content: "";
   position: absolute;
   background: var(--green-color);
-  width: 50px;
-  min-height: 120vh;
-  margin: -300px 0 0 350px;
-  transform: rotate(90deg);
+  width: 100vw;
+  height: 50px;
+  margin: 150px 0;
 }
 .brown-rectangle {
   z-index: 1;
@@ -148,10 +149,8 @@ nav {
   width: 100vw;
   height: 70px;
   background: red;
-  position: absolute;
-  top: calc(100vh + 75px);
-  left: 0;
   background: var(--brown-color);
+  position: absolute;
 }
 
 @media(min-width: 850px) {
@@ -182,8 +181,10 @@ nav {
     font-size: 1.2rem;
   }
   .green-rectangle {
-    margin: -10px 0 0 100px;
-    transform: rotate(-19.5deg)
+    display: none;
+  }
+  .brown-rectangle {
+    margin-top: -80px;
   }
 }
 
