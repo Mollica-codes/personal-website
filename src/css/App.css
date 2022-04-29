@@ -193,11 +193,12 @@ nav {
 .projects-page {
   background: var(--green-color);
   min-height: 100vh;
+  padding: 2em 0;
 }
 
 .project-page-header {
   text-align: center;
-  padding: 2em;
+  padding: 0 0 2em 0;
   margin: 0; 
 }
 
@@ -206,7 +207,6 @@ nav {
   grid-auto-rows: max-content;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-gap: 15px;
-  
 }
 
 .project-img {
@@ -238,20 +238,6 @@ nav {
   border-radius: 20px;
 }
 
-.skills-header {
-  text-align: center;
-  padding: 1em;
-  border-top: 5px solid var(--brown-color);
-  margin: 1em 1em;
-}
-
-.skills-wrapper {
-  display: flex;
-  justify-content: space-evenly;
-  padding: 0 1em 3em 1em;
-  margin: 0 auto;
-  max-width: 900px;
-}
 
 /*    Contact    */
 

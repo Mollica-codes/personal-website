@@ -18,7 +18,7 @@ function Intro() {
             </div>
             <div className="intro-text">
                 <h1 className="intro-header">Hello I'm Chris!</h1>
-                <p className="intro-subheader">Aspiring Software Developer</p>
+                <p className="intro-subheader">Software Developer</p>
             </div>
         </div>
     );
