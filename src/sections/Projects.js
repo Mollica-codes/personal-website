@@ -4,6 +4,7 @@ import clock from '../images/25-clock.png';
 import quote from '../images/quote.png';
 import ecommerceSite from '../images/ecommerce-site.png';
 import shooterGame from '../images/Space-shooter-photo.png';
+import promptAI from '../images/prompt-project1.png';
 
 
 function Projects() {
@@ -26,6 +27,9 @@ function Projects() {
                 <a href="https://codepen.io/MollicaCodes/full/abEoQEv" target="_blank" rel="noreferrer">
                     <img className="project-img" src={shooterGame} alt="space shooter game"/>
                     Space Shooter</a>
+                <a href="https://chris-prompt-ai.netlify.app/" target="_blank" rel="noreferrer">
+                    <img className="project-img" style={{objectFit: 'fill'}} src={promptAI} alt="prompt ai project"/>
+                    Prompt Generator</a>
             </div>
         </div>
     )
